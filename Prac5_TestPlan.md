@@ -32,5 +32,5 @@ A number of tests will be done to ensure the program performs to the expected fu
  - Ensure everytime the board is tilted, a new tile with the value of 2 is spawned
  - Ensure the tiles are spawned in random places every tilt
  - Ensure the tiles of the same value combine and create a value with the sum of the two tiles
- - Ensure the game has an end state (if you fill the grid with uncombined tiles or if you wish 2048)
+ - Ensure the game has an end state (if you fill the grid with uncombined tiles or if you win 2048)
 
