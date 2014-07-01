@@ -16,7 +16,7 @@ Test Items
  - main.c
  - tilt.c
 
-These are the only files that need to be tested, any other files are only required to allow the game to run correctly. 'tilt.c' will be the file that is mainly tested as this is the method used to create tilting of the board. 'keyboard.c' is the file that receives they keys pressed which tells the 'tilt.c' which direction to tilt. 'board.c' is the file that has the grid for the tiles and 'main.c' is the files that runs all the files as a complete program.
+These are the only files that need to be tested, any other files are only required to allow the game to run correctly. 'tilt.c' is the file that is used to create tilting of the board. 'keyboard.c' is the file that receives they keys pressed which tells the 'tilt.c' which direction to tilt. 'board.c' is the file that has the grid for the tiles and 'main.c' is the files that runs all the files as a complete program.
 
 Features To Be Tested
 =====================
