@@ -8,13 +8,27 @@ Resources Needed
 
 Considering the game isnt complex, a C Complier and the program/test files will only be required. The tests will be done on a Unix Machine.
 
+Test Items
+==========
+
+board.c
+keyboard.c
+main.c
+tilt.c
+
+These are the only files that need to be tested, any other files are only required to allow the game to run correctly.
+
 Features To Be Tested
 =====================
 
 A number of tests will be done to ensure the program performs to the expected functionality. These tests will consist of:
 
  - Ensure the game is initated with two tiles (a 2 and a 4)
- - Ensure the tilt functions work correctly (tilt up, down, left and right)
+ - Ensure the tilt functions work correctly
+   - Tilt up
+   - Tilt down
+   - Tilt left
+   - Tilt right
  - Ensure everytime the board is tilted, a new tile with the value of 2 is spawned
  - Ensure the tiles are spawned in random places every tilt
  - Ensure the tiles of the same value combine and create a value with the sum of the two tiles
