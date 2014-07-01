@@ -48,3 +48,10 @@ Testing
 
  - Comparison Testing:
    - Considering there are many games available like this in the market, there will be plenty of games to compare it to. This will ensure that the game meets the requirements of games like it to ensure it works and meets the market requirements.
+
+Conclusion
+==========
+
+Testing of the game will need to reach atleast 90% accuracy to ensure the game will work as intended. If 90% accuracy isn't met, more extensive testing will need to be done with unit and system testing.
+
+Overall, the following Test Plan will ensure superior quality with a minimum amount of bugs or errors.
