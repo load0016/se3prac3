@@ -34,3 +34,17 @@ A number of tests will be done to ensure the program performs to the expected fu
  - Ensure the tiles of the same value combine and create a value with the sum of the two tiles
  - Ensure the game has an end state (if you fill the grid with uncombined tiles or if you win 2048)
 
+Testing
+=======
+
+ - Black Box Testing:
+   - Black box testing will be done as this will test the program as a whole without looking at the code itself. Considering this is a simple game, extensive testing will not be needed.
+
+ - Unit Testing:
+   - This test will be done to ensure that each of the components in the game work correctly. Tilting of the game will be tested to ensure that when the board it tilted, the correct combinations of values combine together and that a new tile with a value is spawned.   
+
+ - System Testing:
+   - System testing will be done to test as many possibilities as possible. This test will be done to the specifications of the game which will cover all the components of the game.
+
+ - Comparison Testing:
+   - Considering there are many games available like this in the market, there will be plenty of games to compare it to. This will ensure that the game meets the requirements of games like it to ensure it works and meets the market requirements.
