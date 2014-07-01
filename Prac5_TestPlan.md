@@ -7,3 +7,16 @@ Resources Needed
 ================
 
 Considering the game isnt complex, a C Complier and the program/test files will only be required. The tests will be done on a Unix Machine.
+
+Features To Be Tested
+=====================
+
+A number of tests will be done to ensure the program performs to the expected functionality. These tests will consist of:
+
+ - Ensure the game is initated with two tiles (a 2 and a 4)
+ - Ensure the tilt functions work correctly (tilt up, down, left and right)
+ - Ensure everytime the board is tilted, a new tile with the value of 2 is spawned
+ - Ensure the tiles are spawned in random places every tilt
+ - Ensure the tiles of the same value combine and create a value with the sum of the two tiles
+ - Ensure the game has an end state (if you fill the grid with uncombined tiles or if you wish 2048)
+
