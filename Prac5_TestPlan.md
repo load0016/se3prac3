@@ -11,10 +11,10 @@ Considering the game isnt complex, a C Complier and the program/test files will 
 Test Items
 ==========
 
-board.c
-keyboard.c
-main.c
-tilt.c
+ - board.c
+ - keyboard.c
+ - main.c
+ - tilt.c
 
 These are the only files that need to be tested, any other files are only required to allow the game to run correctly.
 
