@@ -21,7 +21,7 @@ int tilt_line_left(int length,int *line)
     }
   }
    // combine tiles as required
-   for(c=0; c<length c++) {
+   for(c=0; c<length; c++) {
      if (line[c]=line[c+1]&&line[c]!=0) {
        line[c]+=line[c];
      } 
