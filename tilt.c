@@ -16,7 +16,7 @@ int tilt_line_left(int length,int *line)
         line[a]=line[b];
         line[b]=0;
       }
-      a++
+      a++; //fixed error here - no semi colon
     }
   }
   
