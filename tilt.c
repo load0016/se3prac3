@@ -8,7 +8,8 @@ int tilt_line_left(int length,int *line)
 
   // slide tiles to the left
   int a=0;
-  int b=0 ;
+  int b=0;
+  int c=0;
   
   for(b=0; b<length; b++) {
     if(line[b]!=0) {
@@ -16,12 +17,15 @@ int tilt_line_left(int length,int *line)
         line[a]=line[b];
         line[b]=0;
       }
-      a++; //fixed error here - no semi colon
+      a++;
     }
   }
-  
-
-  // combine tiles as required
+   // combine tiles as required
+   for(c=0; c<length c++) {
+     if (line[c]=line[c+1]&&line[c]!=0) {
+       line[c]+=line[c];
+     } 
+   }
 
   return 0;
 }
