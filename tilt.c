@@ -10,11 +10,11 @@ int tilt_line_left(int length,int *line)
   int a;
   int b;
   
-  for(b=0; i<length; b++) {
+  for(b=0; b<length; b++) {
     if(line[b]!=0) {
-      if(i!=a) {
-        line[a]=line[i];
-        line[i]=0;
+      if(b!=a) {
+        line[a]=line[b];
+        line[b]=0;
       }
     }
   }
