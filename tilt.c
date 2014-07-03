@@ -28,7 +28,9 @@ int tilt_line_left(int length,int *line)
        for (d=c+1; d<length; d++) {
           line[d]=line[d+1];
        }
+       line[d]=0;
      } 
    }
+   line[c]=0;
   return 0;
 }
